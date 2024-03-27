@@ -14,7 +14,7 @@ def train(
         img_size=416,
         resume=False,   # 重新开始
         epochs=10,
-        batch_size=16,
+        batch_size=4,
         accumulate=1,
         multi_scale=False,
         freeze_backbone=False,      # TODO 所有层参数都学习更新？
