@@ -12,7 +12,7 @@ def test(
         cfg,
         data_cfg,
         weights,
-        batch_size=16,
+        batch_size=4,
         img_size=416,
         iou_thres=0.5,
         conf_thres=0.3,
